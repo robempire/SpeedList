@@ -2,7 +2,7 @@ import string
 import time
 import random
 import concurrent.futures
-import re,
+import re
 import math
 import hashlib
     
@@ -144,8 +144,6 @@ class SpeedList:
                 
                 merged = [self.hydra[x[0].lower()].append(x) if not re.search('(^[^\w\d])', x) \
                           else self.hydra[str(abs(hash(x)))[0]].append(x) for x in new_hydra.values()]
-                
-                merged = [self.hydra[
                 
                 return merged
             
