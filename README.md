@@ -11,7 +11,7 @@ import time
 
 maker = SpeedList()
 
-# Create a list of alphanumeric values, 30 characters per item for 1,000,000 items
+### Create a list of alphanumeric values, 30 characters per item for 1,000,000 items
 dummy_list = maker.make_dummy(30, 1000000) # This takes forever and is only for this example
 
 # Add a value to search for
